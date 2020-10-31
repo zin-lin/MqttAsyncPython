@@ -45,9 +45,9 @@ class Demo_Main():
         #//print(br)
         
         self.client = mqtt.Client("WorkShopIo")
-        #Async(func = self.client.connect(br, 1883))#where 1883 is the port
+        Async(func = self.client.connect(br, 1883))#where 1883 is the port
         
-        self.client.connect(br,1883)
+        #self.client.connect(br,1883)
         
 
   
